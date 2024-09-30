@@ -33,10 +33,10 @@ function App() {
         <p className="center">Please enter a duration greater than Zero. </p>
       )}
       if{!initialInvestmentValid && (
-        <p className="center">Please enter a InitialInvestment greater than Zero. </p>
+        <p className="center">Please enter a Initial Investment greater than Zero. </p>
       )}
       if{!annualInvestmentValid && (
-        <p className="center">Please enter a annualInvestment greater than Zero. </p>
+        <p className="center">Please enter a annual Investment greater than Zero. </p>
       )}
 
 

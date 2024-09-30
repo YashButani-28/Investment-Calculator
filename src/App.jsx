@@ -29,13 +29,13 @@ function App() {
       <Header />
       <UserInput userInput={userInput} onChange={handleChange} />
 
-      if{!inputIsValid && (
+      {!inputIsValid && (
         <p className="center">Please enter a duration greater than Zero. </p>
       )}
-      if{!initialInvestmentValid && (
+      {!initialInvestmentValid && (
         <p className="center">Please enter a Initial Investment greater than Zero. </p>
       )}
-      if{!annualInvestmentValid && (
+      {!annualInvestmentValid && (
         <p className="center">Please enter a annual Investment greater than Zero. </p>
       )}
 
